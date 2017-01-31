@@ -7,7 +7,6 @@ void setup()
 {
   size(512, 512, P3D);
   frameRate(30);
-  smooth();
   colorMode(HSB);
   
   towers = new ArrayList<Tower>();

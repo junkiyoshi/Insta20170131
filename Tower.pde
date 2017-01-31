@@ -29,7 +29,7 @@ class Tower
     translate(location.x, location.y - h / 2, location.z);
     rotateY(radians(angle));
     fill(255);
-    stroke(32, 12);
+    stroke(32, 128);
     box(w, h, d);
     translate(0, -h, 0);
     fill(bodyColor);
